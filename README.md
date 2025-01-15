@@ -26,7 +26,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Despair. Sadness. Misery. These are synonyms for the lack of joy will feel in a world filled with a lack of competitive gaming. How may we fill this void? Connect four! The connect four application will fill the void that the people in your life never could. Complete with score tracking, multiplayer interactions, and score tracking download the connect four application today to find joy and peace in your life!
+Despair. Sadness. Misery. These are synonyms for the lack of joy will feel in a world filled with a lack of competitive gaming. How may we fill this void? Connect four! The connect four application will fill the void that the people in your life never could. Complete with score tracking and multiplayer interactions download the connect four application today to find joy and peace in your life!
 
 ### Design
 
