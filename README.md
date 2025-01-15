@@ -30,7 +30,7 @@ Despair. Sadness. Misery. These are synonyms for the lack of joy will feel in a 
 
 ### Design
 
-![Design image](ConnectFour-1.png)
+![Design image](ConnectFour-1.jpg)
 
 Here is a sequence diagram that shows how to people would interact with the backend to vote.
 
