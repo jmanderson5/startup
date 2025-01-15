@@ -1,4 +1,4 @@
-Connect Four
+# Connect Four
 
 [My Notes](notes.md)
 
