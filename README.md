@@ -18,7 +18,7 @@ A brief description of the application here. Lorem ipsum dolor sit amet, consect
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
+- [x] Proper use of Markdown
 - [x] A concise and compelling elevator pitch
 - [ ] Description of key features
 - [ ] Description of how you will use each technology
@@ -26,7 +26,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Despair. Sadness. Misery. These are synonyms for the lack of joy will feel in a world filled with a lack of competitive gaming. How may we fill this void? Connect four! The connect four application will fill the void that the people in your life never could. Complete with score tracking and multiplayer interactions download the connect four application today to find joy and peace in your life!
+Despair. Sadness. Misery. These are synonyms for the lack of joy you will feel in a world filled with a lack of competitive gaming. How may we fill this void? Connect four! The connect four application will fill the void that the people in your life never could. Complete with score tracking and multiplayer interactions download the connect four application today to find joy and peace in your life!
 
 ### Design
 
@@ -48,20 +48,26 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Secure login over HTTPS
+- Ability to connect with other players for multiplayer play
+- Display of current score
+- Ability to select which row to place your chip.
+- Total scores from all users displayed in realtime
+- Results are persistently stored
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Uses correct HTML structure for application. Three HTML pages. One for login, one for playing, and one for viewing the user scores.
+- **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
+- **React** - Provides login, updates board, display other users scores, and use of React for routing and components.
+- **Service** - Backend service with endpoints for:
+    - login
+    - updating board
+    - retrieving user scores
+- **DB/Login** - Store users, scores, and active games in database. Register and login users. Credentials securely stored in database. Can't play unless authenticated.
+- **WebSocket** - As each user makes column selection, the board is updated and broadcast to the other user.
 
 ## 🚀 AWS deliverable
 
