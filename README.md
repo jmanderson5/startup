@@ -19,7 +19,7 @@ A brief description of the application here. Lorem ipsum dolor sit amet, consect
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
+- [x] A concise and compelling elevator pitch
 - [ ] Description of key features
 - [ ] Description of how you will use each technology
 - [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
@@ -32,13 +32,18 @@ Despair. Sadness. Misery. These are synonyms for the lack of joy will feel in a 
 
 ![Design image](placeholder.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Here is a sequence diagram that shows how to people would interact with the backend to vote.
 
 ```mermaid
 sequenceDiagram
     actor You
+    actor Friend
     actor Website
-    You->>Website: Replace this with your design
+    You->>Friend: Connect with Friend
+    You->>Website: Make move
+    Website->>Friend: Updates page with new score
+    Friend->>Website: Make move
+    Website->>You: Updates page with new score
 ```
 
 ### Key features
