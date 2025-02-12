@@ -6,7 +6,8 @@ body {
 }
 
 header {
-    flex: 0 80px;   
+    flex: 0 80px;
+    margin-right: 10px;
 }
 
 main {
