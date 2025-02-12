@@ -2,48 +2,68 @@
 <!--BODY, NAV, MAIN, HEADER, FOOTER-->
 <html lang="en">
     <head>
+        <meta charset="UTF-8" />
+        <!-- Tell browsers not to scale the viewport automatically -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>About</title>
-    </head>
-    <body>
-        <header>
-            <h1>Connect Four<sup>&reg;</sup></h1>
-
-            <nav>
-                <menu>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="play.html">play</a></li>
-                    <li><a href="scores.html">scores</a></li>
-                    <li><a href="about.html">about</a></li>
+        <link rel="icon" href="foursquares.png" />
+    
+        <link rel="stylesheet" href="main.css" />
+    
+        <!-- Include bootstrap CSS framework -->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+          crossorigin="anonymous"
+        />
+      </head>
+    <body class="bg-dark text-light">
+        <header class="container-fluid">
+            <nav class="navbar fixed-top navbar-dark"></nav>
+                <a class="navbar-brand" href="#">Connect Four<sup>&reg;</sup></a>
+                <menu class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="play.html">play</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="scores.html">scores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">about</a>
+                </li>
                 </menu>
             </nav>
-
-            <hr />
         </header>
 
-        <main>
+        <main class="container-fluid bg-secondary text-center">
             <div id="balloon" class="balloon-box"><img height="200px" src="placeHolderBalloon.avif" alt="random" /></div>
+
+            <p>
+                ConnectFour is a stratagy game where you play against a separate person till one person connects four in vertical, horizontal, 
+                or diagonal sequence. The more people you win against, the greater your score.
+            </p>
+    
+            <p>
+                The name Connect Four is a registered trademark of Hasbro, Inc. Our use of the name and the game is for non-profit
+                educational use only. No part of this code or program should be used outside of that definition.
+            </p>
+    
+            <div id="quote">
+                <div>Fear is the path to the dark side. Fear leads to anger, anger leads to hate, hate leads to suffering.</div>
+                <div>- Master Yoda</div>
+            </div>
         </main>
 
-        <p>
-            ConnectFour is a stratagy game where you play against a separate person till one person connects four in vertical, horizontal, 
-            or diagonal sequence. The more people you win against, the greater your score.
-        </p>
-
-        <p>
-            The name Connect Four is a registered trademark of Hasbro, Inc. Our use of the name and the game is for non-profit
-            educational use only. No part of this code or program should be used outside of that definition.
-        </p>
-
-        <div id="quote">
-            <div>Fear is the path to the dark side. Fear leads to anger, anger leads to hate, hate leads to suffering.</div>
-            <div>- Master Yoda</div>
-        </div>
-
-        <footer>
-            <hr />
-            <div>Benjamin Anderson</div>
-            <div><a href="https://github.com/jmanderson5/startup">GitHub</a></div>
-        </footer>
+        <footer class="bg-dark text-white-50">
+            <div class="container-fluid">
+              <span>Benjamin Anderson</span>
+              <a href="https://github.com/jmanderson5/startup">GitHub</a>
+            </div>
+          </footer>
       </main>
     </body>
 </html>
