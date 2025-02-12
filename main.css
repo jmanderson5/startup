@@ -21,6 +21,12 @@ footer {
     flex: 0 30px;
 }
 
+menu {
+  display: flex;
+  flex-direction: row !important;
+  list-style: none;
+}
+
 .navbar-brand {
   padding-left: 0.3em;
   border-bottom: solid rgb(182, 182, 182) thin;
@@ -32,4 +38,13 @@ menu .nav-item {
 
 footer a {
   float: right;
+}
+
+@media (max-height: 500px) {
+  header {
+    display: none;
+  }
+  main {
+    flex: 1 100vh;
+  }
 }
