@@ -94,7 +94,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [x] **Header, footer, and main content body** 
-- [ ] **Navigation elements** - I did not complete this part of the deliverable.
+- [x] **Navigation elements** - I dropped the underlines and changed the color for anchor elements.
 - [x] **Responsive to window resizing** - My app looks great on all window sizes
 - [ ] **Application elements** - I did not complete this part of the deliverable.
 - [ ] **Application text content** - I did not complete this part of the deliverable.
