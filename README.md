@@ -87,7 +87,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Images** - A placeholder image has been placed on the about page.
 - [x] **Login placeholder** - There are placeholders on the main page when the website is first loaded.
 - [x] **DB data placeholder** - The player scores from the scores page represent data pulled from the database.
-- [x] **WebSocket placeholder** - The count of games won represent the tally of realtime wins
+- [x] **WebSocket placeholder** - The count of games won represent the tally of realtime wins.
 
 ## 🚀 CSS deliverable
 
