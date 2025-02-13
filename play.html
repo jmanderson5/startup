@@ -44,29 +44,29 @@
 
         <main class="bg-secondary">
             <div class="players">
-                Player:
+                Player
                 <span class="player-name">Jamin</span>
-            </div>
-            <ul class="notification">
-                <li class="player-name">Tim started a new game</li>
-                <li class="player-name">Ada started a new game</li>
-                <li class="player-name">Tim won against John</li>
-                <li class="player-name">Ada lost against Hannah</li>
-            </ul>
-
-            <div>
-                <label for="count">Score</label>
-                <input type="text" id="count" value="--" readonly />
-            </div>
-
-            <br />
-
-            <div>
-                <button>Reset</button>
-            </div>
+            
+                <div class="event"><span class="player-event">Linus</span> scored 377</div>
+                <div class="event"><span class="player-event">Ada</span> started a new game</div>
+                <div class="event"><span class="player-event">Ada</span> stated a new game</div>
+                <div class="event"><span class="player-event">Tim</span> wom against John</div>
+                <div class="event"><span class="system-event">Game</span> connected</div>
+            </div>    
 
             <!--(x, y) is (7, 6) -->
             <div class="game"> 
+                <div>
+                    <div class="connect-four">
+                        <a>Connect Four<sup>&reg;</sup></a>
+                    </div>
+
+                    <div class="user-score">
+                        <div class="score">--</div>
+                        <button class="btn btn-primary custom-btn">Reset</button>
+                    </div>
+                </div>    
+
                 <div class="grid-container">
                     <div class="square"></div>
                     <div class="square"></div>
