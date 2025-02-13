@@ -96,8 +96,8 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Header, footer, and main content body** 
 - [x] **Navigation elements** - I dropped the underlines and changed the color for anchor elements.
 - [x] **Responsive to window resizing** - My app looks great on all window sizes
-- [ ] **Application elements** - I did not complete this part of the deliverable.
-- [ ] **Application text content** - I did not complete this part of the deliverable.
+- [x] **Application elements** - Used good contrast and whitespace
+- [x] **Application text content** - Consistent fonts
 - [x] **Application images** - I added a very nice picture with an adaptive size and border the about section.
 
 ## 🚀 React part 1: Routing deliverable

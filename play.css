@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns */
+    grid-template-rows: repeat(6, 1fr); /* 6 rows */
+    gap: 1px; /* Adjust the gap between squares as needed */
+    background-color: rgb(39, 40, 42);
+    border-radius: 50px rgb(86, 89, 93);
+    padding: 5px;
+}
+
+.square {
+    background-color: grey;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 3px solid rgb(36, 53, 0);
+}
+
+.square-red {
+    flex: 1;
+    margin: 20px;
+    background-color: red;
+    border: 3px solid rgb(37, 54, 0);
+}
+
+.square-blue {
+    flex: 1;
+    margin: 20px;
+    background-color: blue;
+    border: 3px solid rgb(36, 53, 0);
+}
