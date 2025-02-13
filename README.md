@@ -98,7 +98,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Responsive to window resizing** - My app looks great on all window sizes
 - [ ] **Application elements** - I did not complete this part of the deliverable.
 - [ ] **Application text content** - I did not complete this part of the deliverable.
-- [ ] **Application images** - I did not complete this part of the deliverable.
+- [x] **Application images** - I added a very nice picture with an adaptive size and border the about section.
 
 ## 🚀 React part 1: Routing deliverable
 
