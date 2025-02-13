@@ -42,131 +42,92 @@
             </nav>
             </header>
 
-        <main class="container-fluid bg-secondary text-center">
+        <main class="bg-secondary">
+            <div class="players">
+                Player:
+                <span class="player-name">Jamin</span>
+            </div>
+            <ul class="notification">
+                <li class="player-name">Tim started a new game</li>
+                <li class="player-name">Ada started a new game</li>
+                <li class="player-name">Tim won against John</li>
+                <li class="player-name">Ada lost against Hannah</li>
+            </ul>
+
             <div>
-                <!-- <div class="players">
-                    Player:
-                    <span class="player-name">Jamin</span>
+                <label for="count">Score</label>
+                <input type="text" id="count" value="--" readonly />
+            </div>
+
+            <br />
+
+            <div>
+                <button>Reset</button>
+            </div>
+
+            <!--(x, y) is (7, 6) -->
+            <div class="game"> 
+                <div class="grid-container">
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
                 </div>
-                <ul class="notification">
-                    <li class="player-name">Tim started a new game</li>
-                    <li class="player-name">Ada started a new game</li>
-                    <li class="player-name">Tim won against John</li>
-                    <li class="player-name">Ada lost against Hannah</li>
-                </ul>
 
-                <div>
-                    <label for="count">Score</label>
-                    <input type="text" id="count" value="--" readonly />
+                <!--row selection buttons-->
+                <div class="button-container">
+                    <td><button class="button"></button></td>
+                    <td><button class="button"></button></td>
+                    <td><button class="button"></button></td>
+                    <td><button class="button"></button></td>
+                    <td><button class="button"></button></td>
+                    <td><button class="button"></button></td>
+                    <td><button class="button"></button></td>
                 </div>
-
-                <br />
-
-                <div>
-                    <button>Reset</button>
-                </div> -->
-
-                <!--(x, y) is (7, 6) -->
-                <div> 
-                    <div class="grid-container">
-                        <!-- Create 42 squares (7 columns x 6 rows) -->
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <!-- Repeat the above 7 squares for 6 rows -->
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <!-- You can copy and paste the above 7 squares 5 more times -->
-                    </div>
-
-                    <!--row selection buttons-->
-                    <!-- <div>
-                        <table>
-                            <tr>
-                                <td>
-                                    <button>
-                                        <svg aria-hidden="true" viewBox="0 0 100 100" height="36" width="36"></svg>
-                                    </button>
-                                </td>
-                                <td>
-                                    <button>
-                                        <svg aria-hidden="true" viewBox="0 0 100 100" height="36" width="36"></svg>
-                                    </button>
-                                </td>
-                                <td>
-                                    <button>
-                                        <svg aria-hidden="true" viewBox="0 0 100 100" height="36" width="36"></svg>
-                                    </button>
-                                </td>
-                                <td>
-                                    <button>
-                                        <svg aria-hidden="true" viewBox="0 0 100 100" height="36" width="36"></svg>
-                                    </button>
-                                </td>
-                                <td>
-                                    <button>
-                                        <svg aria-hidden="true" viewBox="0 0 100 100" height="36" width="36"></svg>
-                                    </button>
-                                </td>
-                                <td>
-                                    <button>
-                                        <svg aria-hidden="true" viewBox="0 0 100 100" height="36" width="36"></svg>
-                                    </button>
-                                </td>
-                                <td>
-                                    <button>
-                                        <svg aria-hidden="true" viewBox="0 0 100 100" height="36" width="36"></svg>
-                                    </button>
-                                </td>
-                            </tr>
-                        </table>
-                    </div> -->
-                </div>
-                
-                </td>
-                <td>
-            </div>    
+            </div>  
         </main>
 
         <footer class="bg-dark text-white-50">
