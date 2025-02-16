@@ -116,14 +116,11 @@ color: rgb(221, 148, 40);
     }
 }
 
-@media (max-height: 450px) {
+@media (max-height: 600px) {
     header {
       display: none;
     }
-}
-
-@media (max-height: 650px) {
     footer {
-      display: none;
-    }
+        display: none;
+      }
 }
