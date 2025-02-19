@@ -98,8 +98,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 which column to place game piece.
 - [x] **Responsive to window resizing** - Edited @media elements so header and footer will disapear at different window sizes.
 Connect four grid will adjust which side its size is in relation to depending on landscape or portrait orientation.
-- [x] **Application elements** - Used good contrast and whitespace
-- [x] **Application text content** - Consistent fonts
+- [x] **Application elements** - Used good contrast and whitespace. Moved navigation elements to be displayed in a column direction using flex.
+Possitioned application elements in various location i.e. GitHub link in the bottom right. Positioned connect four squares and buttons in grid pattern
+- [x] **Application text content** - Changed text color and position for better contrast and style.
 - [x] **Application images** - I added a very nice picture with an adaptive size and border the about section.
 
 ## 🚀 React part 1: Routing deliverable
