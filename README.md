@@ -94,8 +94,10 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [x] **Header, footer, and main content body** 
-- [x] **Navigation elements** - I dropped the underlines and changed the color for anchor elements.
-- [x] **Responsive to window resizing** - My app looks great on all window sizes
+- [x] **Navigation elements** - I dropped the underlines and changed the color for anchor elements. Added buttons to select
+which column to place game piece.
+- [x] **Responsive to window resizing** - Edited @media elements so header and footer will disapear at different window sizes.
+Connect four grid will adjust which side its size is in relation to depending on landscape or portrait orientation.
 - [x] **Application elements** - Used good contrast and whitespace
 - [x] **Application text content** - Consistent fonts
 - [x] **Application images** - I added a very nice picture with an adaptive size and border the about section.
