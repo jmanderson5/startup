@@ -26,3 +26,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Add require('<package name here>') to your application's JavaScript
 - Use the code the package provides in your JavaScript
 - Run your code with node index.js
+
+## React Notes
+
+- Deploy react in the terminal using the following command
+./deployReact.sh -k ~/keys/production.pem -h engagefour.click -s startup
