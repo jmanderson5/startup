@@ -107,9 +107,9 @@ Possitioned application elements in various location i.e. GitHub link in the bot
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
-- [ ] **Components** - I did not complete this part of the deliverable.
-- [ ] **Router** - Routing between login and voting components.
+- [x] **Bundled using Vite** - App components are not stored and organized in their respective folders and can be seen as an individual file when viewed via a web browser debugger.
+- [x] **Components** - I made individual jsx file for each app component wich uses code built during previous deliverables.
+- [x] **Router** - Routing between login and voting components is now down via the browserrouter as apposed to linking directly to respective html files.
 
 ## 🚀 React part 2: Reactivity
 
