@@ -2,37 +2,57 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
 
+import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
+import { Login } from './login/login';
+import { Play } from './play/play';
+import { Scores } from './scores/scores';
+import { About } from './about/about';
+
 export default function App() {
-  return <div className="body bg-dark text-light">
-    <header className="container-fluid">
-  <nav className="navbar fixed-top navbar-dark">
-    <menu className="navbar-nav">
-      <header>
-        <a className="navbar-brand" href="#">Connect Four<sup>&reg;</sup></a>
-      </header>
-      <li className="nav-item">
-        <a className="nav-link active" href="index.html">Home</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="play.html">Play</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="scores.html">Scores</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="about.html">About</a>
-      </li>
-    </menu>
-  </nav>
-</header>
+  return (
+    <BrowserRouter>
+        <div className="body bg-dark text-light">  
+            <header className="container-fluid">
+        <nav className="navbar fixed-top navbar-dark">
+            <menu className="navbar-nav">
+            <header>
+                <NavLink className="navbar-brand" to="/">Connect Four<sup>&reg;</sup></NavLink>
+            </header>
+            <li className="nav-item">
+                <NavLink className="nav-link active" to="/">Home</NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink className="nav-link" to="play">Play</NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink className="nav-link" to="scores">Scores</NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink className="nav-link" to="about">About</NavLink>
+            </li>
+            </menu>
+        </nav>
+        </header>
 
-<main className="container-fluid bg-secondary text-center">app components go here</main>
+        <Routes>
+            <Route path='/' element={<Login />} exact />
+            <Route path='/play' element={<Play />} />
+            <Route path='/scores' element={<Scores />} />
+            <Route path='/about' element={<About />} />
+            <Route path='*' element={<NotFound />} />
+        </Routes>
 
-<footer className="bg-dark text-white-50">
-  <div className="container-fluid">
-    <span className="text-reset"> Benjamin Anderson</span>
-    <a className="text-reset" href="https://github.com/jmanderson5/startup">GitHub</a>
-  </div>
-</footer>
-</div>;
+        <footer className="bg-dark text-white-50">
+        <div className="container-fluid">
+            <span className="text-reset"> Benjamin Anderson</span>
+            <a className="text-reset" href="https://github.com/jmanderson5/startup">GitHub</a>
+        </div>
+        </footer>
+        </div>  
+    </BrowserRouter>
+  );
 }
+
+function NotFound() {
+    return <main className="container-fluid bg-secondary text-center">404: Return to sender. Address unknown.</main>;
+  }
