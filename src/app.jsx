@@ -16,7 +16,7 @@ export default function App() {
         <nav className="navbar fixed-top navbar-dark">
             <menu className="navbar-nav">
             <header>
-                <NavLink className="navbar-brand" to="/">Connect Four<sup>&reg;</sup></NavLink>
+                <a className="navbar-brand">Connect Four<sup>&reg;</sup></a>
             </header>
             <li className="nav-item">
                 <NavLink className="nav-link active" to="/">Home</NavLink>
